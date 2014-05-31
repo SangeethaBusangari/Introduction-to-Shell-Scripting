@@ -1,3 +1,4 @@
+#! /bin/ksh
 if(($#==2)) then
 if [[-f $1 && -f $2]] then
   if comp $1 $2 ?/dev/null then
