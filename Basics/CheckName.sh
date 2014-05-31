@@ -1,4 +1,4 @@
-#!/bin/ksh
+#! /bin/ksh
 #shell script that accepts the file name as argument and check whether it is a ordinary file or the directory or a sybolic file.
 echo " enter the name"
 read name
