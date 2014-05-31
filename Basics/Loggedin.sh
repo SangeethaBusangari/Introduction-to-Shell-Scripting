@@ -1,3 +1,4 @@
+#! /bin/ksh
 if who||grwp="$1">/dev/null then
   print "$1 is logged in"
   print "user is logged at \c"
