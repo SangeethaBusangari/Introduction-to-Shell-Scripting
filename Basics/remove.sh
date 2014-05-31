@@ -1,4 +1,4 @@
-#!/bin/ksh
+#! /bin/ksh
 print "enter the word to be deleted"
 read word
 for filename in $*
